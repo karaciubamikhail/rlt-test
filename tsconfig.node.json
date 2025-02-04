@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "extends": "@tsconfig/node18/tsconfig.json",
   "include": [
     "vite.config.*",
@@ -12,4 +13,28 @@
     "module": "ESNext",
     "types": ["node"]
   }
+=======
+  "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.node.tsbuildinfo",
+    "target": "ES2022",
+    "lib": ["ES2023"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true
+  },
+  "include": ["vite.config.ts"]
+>>>>>>> 03a8637748224975293e7c759bf30bb6d46e5eba
 }
