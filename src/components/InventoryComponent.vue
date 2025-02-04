@@ -32,8 +32,4 @@
     margin-bottom: 20px;
   }
 }
-<<<<<<< HEAD
 </style>
-=======
-</style>
->>>>>>> 03a8637748224975293e7c759bf30bb6d46e5eba

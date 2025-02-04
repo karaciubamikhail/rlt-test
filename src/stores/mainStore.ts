@@ -36,8 +36,4 @@ export const mainStore = defineStore('cells', () => {
     state,
     deleteItem
   }
-<<<<<<< HEAD
 })
-=======
-})
->>>>>>> 03a8637748224975293e7c759bf30bb6d46e5eba
