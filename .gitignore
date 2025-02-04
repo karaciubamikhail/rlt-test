@@ -1,0 +1,39 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+<<<<<<< HEAD
+.DS_Store
+dist
+dist-ssr
+coverage
+*.local
+
+/cypress/videos/
+/cypress/screenshots/
+
+=======
+dist
+dist-ssr
+*.local
+
+>>>>>>> 03a8637748224975293e7c759bf30bb6d46e5eba
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+<<<<<<< HEAD
+=======
+.DS_Store
+>>>>>>> 03a8637748224975293e7c759bf30bb6d46e5eba
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
