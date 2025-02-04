@@ -15,4 +15,5 @@ import BottomBlock from "@/components/BottomBlock.vue";
 <style lang="scss">
 @import "assets/style/main";
 
+
 </style>
